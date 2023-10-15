@@ -3,7 +3,41 @@ body {
     background-color: #010ca3;
     margin: 0;
 }
+.container {
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+}
 
+.menu {
+    position: absolute;
+    top: 0;
+    right: 0; 
+    background-color: #010ca3;
+    padding: 10px;
+    z-index: 1;
+    border-radius: 10px;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.menu li {
+    display: inline;
+    margin-right: 10px;
+}
+.menu ul li a:hover {
+    color: #5059e0; 
+    
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
 header {
     position: absolute;
     left: 50%;
